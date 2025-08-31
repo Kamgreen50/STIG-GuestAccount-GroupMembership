@@ -10,18 +10,14 @@
 ---
 
 ## Remediation
-- **Steps (Windows):**
-  1. Open **Computer Management** (`compmgmt.msc`).  
-  2. Go to **Local Users and Groups > Users**.  
-  3. Double-click the **Guest** account.  
-  4. Remove the Guest account from any groups except the default **Guests** group.  
-  5. Apply changes and restart if required.  
+- Remove the `Guest` account from all privileged groups (Administrators, Domain Guests, etc.).  
+- Disable the `Guest` account if not required.  
+- Validate changes by rescanning or checking group membership again.  
 
 ---
 
 ## After Remediation
 - The `Guest` account is no longer a member of privileged groups.  
-- **Evidence (placeholders for now):**  
-  ![Guest Account – After Details Placeholder](GuestAccount-After-Details.png)  
-  ![Guest Account – After Findings Placeholder](GuestAccount-After-FindingsList.png)   
-
+- **Evidence (placeholders only, not clickable):**  
+  GuestAccount-After-Details.png  
+  GuestAccount-After-FindingsList.png  
