@@ -17,7 +17,8 @@
 ---
 
 ## After Remediation
-- The `Guest` account is no longer a member of privileged groups.  
-- **Evidence (placeholders only, not clickable):**  
-  GuestAccount-After-Details.png  
-  GuestAccount-After-FindingsList.png  
+- Guest account successfully removed from all privileged groups.  
+- Verification performed via group membership review and Tenable rescan.  
+- Screenshots (placeholders until updated with final evidence):  
+  - GuestAccount-After-Details.png  
+  - GuestAccount-After-FindingsList.png 
