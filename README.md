@@ -20,8 +20,8 @@
 ---
 
 ## After Remediation
-- **Expected Outcome:** Guest account is not a member of any privileged groups and has only default restricted access.  
+- The `Guest` account is no longer a member of privileged groups.  
 - **Evidence (placeholders for now):**  
-  ![Guest Account – After Details](GuestAccount-After-Details.png)  
-  ![Guest Account – After Findings List](GuestAccount-After-FindingsList.png)  
+  ![Guest Account – After Details Placeholder](GuestAccount-After-Details.png)  
+  ![Guest Account – After Findings Placeholder](GuestAccount-After-FindingsList.png)   
 
